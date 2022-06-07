@@ -26,6 +26,18 @@ body {
   margin: 0 auto;
 }
 
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transform: translateX(-50%);
+  border: 5px solid #fff;
+}
+
 .contenedor {
   width: 100%;
   height: auto;
@@ -99,13 +111,21 @@ button.active {
   body {
     width: 100vw;
     padding: 50px;
-    justify-content: space-around;
     text-align: center;
   }
 
   h1 {
     font-size: 25px;
     user-select: none;
+  
+  }
+
+  .avatar{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    top: 20px;
+    right: 20px;
   }
 
 
