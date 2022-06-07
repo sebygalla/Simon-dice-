@@ -96,14 +96,25 @@ button.active {
 
 @media screen and (max-width: 675px) {
   body {
-    width: 90vw;
-    padding: 30px;
-    justify-content: space-between;
-
+    width: 100vw;
+    padding: 50px;
+    justify-content: space-around;
+    text-align: center;
   }
 
   h1 {
     font-size: 25px;
+  }
+
+  button {
+  
+    width: 90px;
+    height: 90px;
+    border-radius: 9px;
+    border-color: whitesmoke;
+    border-width: 2px;
+    margin: 3px;
+    cursor: pointer;
   }
 
 
