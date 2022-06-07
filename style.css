@@ -38,6 +38,7 @@ h1 {
   color: white;
   font-family: 'Press Start 2P', cursive;
   cursor: pointer;
+  user-select: none;
 }
 
 h1:hover {
@@ -104,6 +105,7 @@ button.active {
 
   h1 {
     font-size: 25px;
+    user-select: none;
   }
 
   button {
