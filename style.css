@@ -108,16 +108,5 @@ button.active {
     user-select: none;
   }
 
-  button {
-  
-    width: 90px;
-    height: 90px;
-    border-radius: 9px;
-    border-color: whitesmoke;
-    border-width: 2px;
-    margin: 3px;
-    cursor: pointer;
-  }
-
 
 }
