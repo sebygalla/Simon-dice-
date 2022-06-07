@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Press+Start+2P&family=Ubuntu:wght@300;400;500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background: #000000;
+  background: -moz-linear-gradient(left, #000000 0%, #3B413E 100%, #C5C5C5 100%);
+  background: -webkit-linear-gradient(left, #000000 0%, #3B413E 100%, #C5C5C5 100%);
+  background: linear-gradient(to right, #000000 0%, #3B413E 100%, #C5C5C5 100%);
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  ;
+  position: relative;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.contenedor {
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+  display: block;
+}
+
+h1 {
+  font-size: 30px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border-color: whitesmoke;
+  border-width: 2px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+button.active {
+  box-shadow: 0 0 30px white;
+}
+
+/* colores de los botones */
+#red {
+  background: red;
+}
+
+#blue {
+  background: blue;
+}
+
+#yellow {
+  background: yellow;
+}
+
+#green {
+  background: green;
+}
+
+
+#restart {
+  font-size: 18px;
+  font-weight: 600;
+  width: 150px;
+  height: 60px;
+  padding: 10px;
+  margin-top: 50px;
+  background: white;
+  color: black;
+  border: 2px solid whitesmoke;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 675px) {
+  body {
+    width: 90vw;
+    padding: 30px;
+    justify-content: space-evenly;
+
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+
+}
